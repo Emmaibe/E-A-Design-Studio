@@ -222,20 +222,18 @@ nav p:first-of-type a:hover {
 }
 
 .large-font {
-  position: relative;
-  top: 3rem;
+  padding-top: 3rem;
 }
 
 @media (max-width: 50em) {
   main {
-    height: 136vh;
+    min-height: 128vh;
   }
 
   .container {
     max-width: 39em;
     margin: auto;
     height: auto;
-    overflow: visible;
   }
 
   nav {
@@ -294,6 +292,10 @@ nav p:first-of-type a:hover {
     flex-direction: column;
     gap: 1.5rem;
     margin-top: 5.5rem;
+  }
+
+  .renee-img {
+    padding-top: 1.5rem;
   }
 
   .large-font {

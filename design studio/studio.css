@@ -82,10 +82,11 @@ html:focus-within {
   scroll-behavior: smooth;
 }
 
-html,
+/* html,
 body {
-  /* height: 100vh; */
-}
+  height: 100vh;
+} */
+
 /* Set core body defaults */
 body {
   font-family: "PP Neue Montreal";
@@ -223,9 +224,6 @@ nav p:first-of-type a:hover {
 .large-font {
   position: relative;
   top: 3rem;
-}
-
-.large-font img {
 }
 
 @media (max-width: 50em) {

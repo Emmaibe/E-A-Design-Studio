@@ -21,22 +21,22 @@
 
 @font-face {
   font-family: "PP Neue Montreal medium";
-  src: url("../openfont/PPNeueMontreal-Medium.otf");
+  src: url("openfont/PPNeueMontreal-Medium.otf");
 }
 
 @font-face {
   font-family: "PP Neue Montreal book";
-  src: url("../openfont/PPNeueMontreal-Book.otf");
+  src: url("openfont/PPNeueMontreal-Book.otf");
 }
 
 @font-face {
   font-family: "PP Neue Montreal bold";
-  src: url("../openfont/PPNeueMontreal-Bold.otf");
+  src: url("openfont/PPNeueMontreal-Bold.otf");
 }
 
 @font-face {
   font-family: "PP Neue Montreal";
-  src: url("../openfont/PPNeueMontreal-Thin.otf");
+  src: url("openfont/PPNeueMontreal-Thin.otf");
 }
 
 @media (max-width: 50em) {

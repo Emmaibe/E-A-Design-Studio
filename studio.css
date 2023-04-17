@@ -159,7 +159,7 @@ nav {
   font-family: var(--ff-300);
   display: flex;
   justify-content: space-between;
-  padding: 4.0625rem 0;
+  padding: 3.4rem 0 5rem 0;
   font-size: var(--fs-200);
   position: relative;
 }
@@ -222,8 +222,9 @@ nav p:first-of-type a:hover {
 }
 
 .large-font {
-  padding-top: 3rem;
+  padding-top: 4rem;
   padding-bottom: 1rem;
+  /* max-height: 15vh; */
 }
 
 @media (max-width: 50em) {
@@ -295,9 +296,9 @@ nav p:first-of-type a:hover {
     margin-top: 5.5rem;
   }
 
-  .renee-img {
+  /* .renee-img {
     padding-top: 1.5rem;
-  }
+  } */
 
   .large-font {
     padding-top: 3rem;

@@ -10,7 +10,7 @@
   --ff-300: "PP Neue Montreal medium";
   --ff-400: "PP Neue Montreal bold";
 
-  --fs-100: 1rem;
+  --fs-100: 0.95rem;
   --fs-200: 1.25rem;
   --fs-300: 1.5625rem;
   --fs-400: 2.5rem;
@@ -221,10 +221,13 @@ nav p:first-of-type a:hover {
   margin-bottom: 1rem;
 }
 
+.renee-img img {
+  max-height: 17rem;
+}
+
 .large-font {
-  padding-top: 4rem;
+  padding-top: 6rem;
   padding-bottom: 1rem;
-  /* max-height: 15vh; */
 }
 
 @media (max-width: 50em) {
@@ -295,10 +298,6 @@ nav p:first-of-type a:hover {
     gap: 1.5rem;
     margin-top: 5.5rem;
   }
-
-  /* .renee-img {
-    padding-top: 1.5rem;
-  } */
 
   .large-font {
     padding-top: 3rem;

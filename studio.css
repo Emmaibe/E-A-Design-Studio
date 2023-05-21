@@ -11,6 +11,8 @@
   --ff-400: "PP Neue Montreal bold";
 
   --fs-100: 0.95rem;
+  --fs-120: 1rem;
+  --fs-150: 1.0625rem;
   --fs-200: 1.25rem;
   --fs-300: 1.5625rem;
   --fs-400: 2.5rem;
@@ -144,7 +146,6 @@ body {
 
 main {
   background-color: var(--bg-color);
-  max-width: 1425px;
   margin: auto;
   min-height: 100vh;
 }
@@ -159,7 +160,7 @@ nav {
   font-family: var(--ff-300);
   display: flex;
   justify-content: space-between;
-  padding: 3.4rem 0 5rem 0;
+  padding: 2.5rem 0 4rem 0;
   font-size: var(--fs-200);
   position: relative;
 }
@@ -192,6 +193,14 @@ nav p:first-of-type a:hover {
   font-size: var(--fs-100);
 }
 
+.fs-120 {
+  font-size: var(--fs-120);
+}
+
+.fs-150 {
+  font-size: var(--fs-150);
+}
+
 .fs-200 {
   font-size: var(--fs-200);
 }
@@ -213,7 +222,7 @@ nav p:first-of-type a:hover {
 }
 
 .write-up {
-  max-width: 23.875rem;
+  max-width: 25rem;
 }
 
 .write-up p {
@@ -221,12 +230,17 @@ nav p:first-of-type a:hover {
   margin-bottom: 1rem;
 }
 
-.renee-img img {
-  max-height: 17rem;
+.renee-img {
+  max-width: 37.5rem;
+  max-height: 30rem;
+}
+.renee-img video {
+  width: 100%;
+  height: auto;
 }
 
 .large-font {
-  padding-top: 6rem;
+  padding-top: 3.5rem;
   padding-bottom: 1rem;
 }
 

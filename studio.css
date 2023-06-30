@@ -142,14 +142,14 @@ svg {
 }
 
 body {
-  background-color: #000;
+  /* background-color: #000; */
+  background-color: var(--bg-color);
 }
 
 main {
-  background-color: var(--bg-color);
   margin: auto;
+  /* height: 100vh; */
   box-sizing: border-box;
-  overflow: hidden;
 }
 
 .container {
@@ -259,7 +259,7 @@ nav p:first-of-type a:hover {
   .container {
     max-width: 39em;
     margin: auto;
-    /* height: 100%; */
+    height: 41.6875rem;
   }
 
   nav {

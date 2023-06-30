@@ -155,7 +155,7 @@ main {
 .container {
   max-width: 1295px;
   margin: auto;
-  height: 100vh;
+  /* height: 100vh; */
   padding: 0 1rem;
   display: flex;
   flex-direction: column;
@@ -325,7 +325,7 @@ nav p:first-of-type a:hover {
   }
 
   .large-font {
-    padding-top: 2.5rem;
+    padding-top: 3.5rem;
     padding-bottom: 1rem;
   }
 }

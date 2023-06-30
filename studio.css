@@ -250,9 +250,6 @@ nav p:first-of-type a:hover {
 }
 
 @media (max-width: 50em) {
-  main {
-    height: 100vh;
-  }
   .container {
     max-width: 39em;
     margin: auto;
@@ -323,7 +320,7 @@ nav p:first-of-type a:hover {
   }
 
   .large-font {
-    padding-top: 2rem;
+    padding-top: 2.5rem;
     padding-bottom: 1rem;
   }
 }

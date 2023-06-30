@@ -44,6 +44,7 @@
 @media (max-width: 50em) {
   :root {
     --fs-100: 1rem;
+    --fs-150: 0.9375rem;
     --fs-200: 1.0625rem;
     --fs-300: 1.375rem;
     --fs-400: 1.875rem;
@@ -245,10 +246,6 @@ nav p:first-of-type a:hover {
 }
 
 @media (max-width: 50em) {
-  main {
-    min-height: 128vh;
-  }
-
   .container {
     max-width: 39em;
     margin: auto;
@@ -256,7 +253,7 @@ nav p:first-of-type a:hover {
   }
 
   nav {
-    padding: 1.5rem 0;
+    padding: 0.5rem 0;
     align-items: center;
   }
 
@@ -289,10 +286,10 @@ nav p:first-of-type a:hover {
     display: none;
 
     position: absolute;
-    top: 6rem;
+    top: 4.5rem;
     background-color: #000;
     width: 100%;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
     left: 0;
     text-align: center;
   }
@@ -309,12 +306,17 @@ nav p:first-of-type a:hover {
   .two-columns {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
-    margin-top: 5.5rem;
+    gap: 1rem;
+    margin-top: 2.5rem;
+  }
+
+  .write-up p {
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
   }
 
   .large-font {
-    padding-top: 3rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 }

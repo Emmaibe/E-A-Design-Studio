@@ -148,13 +148,19 @@ body {
 main {
   background-color: var(--bg-color);
   margin: auto;
-  min-height: 100vh;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .container {
   max-width: 1295px;
   margin: auto;
+  height: 100vh;
   padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
 }
 
 nav {
@@ -253,7 +259,7 @@ nav p:first-of-type a:hover {
   .container {
     max-width: 39em;
     margin: auto;
-    height: auto;
+    height: 100%;
   }
 
   nav {

@@ -170,6 +170,10 @@ nav p:first-of-type a:hover {
   border: none;
 }
 
+#paraName:hover {
+  border: none;
+}
+
 .mobile-nav-toggle {
   display: none;
   position: relative;
@@ -246,6 +250,9 @@ nav p:first-of-type a:hover {
 }
 
 @media (max-width: 50em) {
+  main {
+    height: 100vh;
+  }
   .container {
     max-width: 39em;
     margin: auto;
@@ -316,7 +323,7 @@ nav p:first-of-type a:hover {
   }
 
   .large-font {
-    padding-top: 1rem;
+    padding-top: 2rem;
     padding-bottom: 1rem;
   }
 }
